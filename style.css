@@ -55,6 +55,12 @@ header .container .logo{
 }
 header .container nav{
   position: relative;
+  width: 60%;
+}
+header .container nav .links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 header .container .col-2 a{
   color: black;
@@ -82,9 +88,6 @@ header .container .col-3 button{
     display: none;
   }
 }
-header   nav:hover  .links {
-  display: block;
-}
 @media(max-width:767px){
   header nav .links{
     position: absolute;
@@ -92,6 +95,9 @@ header   nav:hover  .links {
     width: 200px;
     background-color: white;
     border-radius: 4px;
+  }
+  header   nav:hover  .links {
+    display: block;
   }
   header nav .links .col-2 a{
     display: block;
