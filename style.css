@@ -84,7 +84,11 @@ header .container .col-3 button{
   }
 }
 @media(max-width:767px){
-  header .links{
+  header .container nav{
+    text-align: right;
+    width: fit-content;
+  }
+  header .container nav .links{
     display: none;
   }
 }
